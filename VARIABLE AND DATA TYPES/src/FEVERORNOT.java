@@ -1,2 +1,2 @@
-public class FEVERORNOT {
+public class ifelse {
 }
