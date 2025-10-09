@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ARRAY/ARRAY.iml" filepath="$PROJECT_DIR$/ARRAY/ARRAY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA Programming.iml" filepath="$PROJECT_DIR$/JAVA Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LOOP/LOOP.iml" filepath="$PROJECT_DIR$/LOOP/LOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PATTERN/PATTERN.iml" filepath="$PROJECT_DIR$/PATTERN/PATTERN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VARIABLE AND DATA TYPES/VARIABLE AND DATA TYPES.iml" filepath="$PROJECT_DIR$/VARIABLE AND DATA TYPES/VARIABLE AND DATA TYPES.iml" />
+    </modules>
+  </component>
+</project>
