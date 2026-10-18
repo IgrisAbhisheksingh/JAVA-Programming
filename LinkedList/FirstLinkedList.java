@@ -1,43 +1,30 @@
 public class FirstLinkedList {
 
-    public class Node {
-        int data;
-        Node next;
 
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
+        public static class Node {
+            int data;
+            Node next;
 
-    public Node head;
-    public Node tail;
-
-    public void addFirst(int data) {
-        Node newNode = new Node(data);
-
-        if (head == null) {   // if list is empty
-            head = tail = newNode;
-            return;
+            Node(int data) {
+                this.data = data;
+            }
         }
 
-        newNode.next = head;
-        head = newNode;
-    }
+        public static void main(String[] args) {
+            Node a = new Node(5);
+            Node b = new Node(15);
+            Node c = new Node(25);
+            Node d = new Node(35);
 
-    public void printList() {
-        Node temp = head;
-        while (temp != null) {
-            System.out.print(temp.data + " -> ");
-            temp = temp.next;
+            a.next = b;
+            b.next = c;
+            c.next = d;
+
+            // Loop through the list using a temporary node
+            Node temp = a;
+            while (temp != null) {
+                System.out.println(temp.data);
+                temp = temp.next;
+            }
         }
-        System.out.println("null");
     }
-
-    public static void main(String[] args) {
-        FirstLinkedList ll = new FirstLinkedList();
-
-        ll.addFirst(10);
-        ll.addFirst(20);
-    }
-}
