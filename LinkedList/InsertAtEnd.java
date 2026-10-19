@@ -28,6 +28,16 @@ public class InsertAtEnd {
 
                 tail = temp;
             }
+            void insertAtHead(int val){
+                Node temp=new Node(val);
+                if(head==null){
+                    head=tail=temp;
+                }
+                else{
+                    temp.next=head;
+                    head=temp;
+                }
+            }
 
             void display() {
                 Node temp = head;
@@ -58,6 +68,7 @@ public class InsertAtEnd {
             ll.insertAtEnd(4);
             ll.insertAtEnd(5);
             ll.insertAtEnd(6);
+            ll.insertAtHead(13);
 
             ll.display();
             System.out.println(ll.size());
