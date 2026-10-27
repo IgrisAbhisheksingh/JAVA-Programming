@@ -10,7 +10,7 @@ public class NewFrequencey {
 
 
         public static void main(String[] args) {
-            String s = "aabbbbccccc";
+            String s = "aabbbbcccccd";
 
             Map<Character, Integer> map = new LinkedHashMap<>();
 
