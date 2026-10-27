@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class FrequenceyCount {
+public class FrequencyCount {
 
 
 
@@ -15,7 +15,7 @@ public class FrequenceyCount {
             System.out.println("Enter the Strings:  ");
             String x=sc.nextLine();
             Map<Character,Integer> mp=new HashMap<>();
-            System.out.println("Total String");
+            System.out.println("Total Frequency of every alphabet");
             for(int i=0 ; i<x.length();i++){
                 char ch=x.charAt(i);
                 if(mp.containsKey(ch)){
