@@ -12,7 +12,7 @@ public class FrequenceyCount {
 
         public static void main(String [] args){
             Scanner sc= new Scanner(System.in);
-            System.out.println("Enter the String:  ");
+            System.out.println("Enter the Strings:  ");
             String x=sc.nextLine();
             Map<Character,Integer> mp=new HashMap<>();
             System.out.println("Enter Arrays");
