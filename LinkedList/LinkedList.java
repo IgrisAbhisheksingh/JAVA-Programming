@@ -61,8 +61,9 @@ public class LinkedList {
         add(15);
         add(55);
         addFi(25);
-        display();
+
         delFi();
+        display();
 
     }
 }
