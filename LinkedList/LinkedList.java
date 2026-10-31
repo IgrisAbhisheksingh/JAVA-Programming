@@ -22,9 +22,10 @@ public class LinkedList {
     }
 
     public static void display(){
-        int temp=p;
+        int temp=head;
         while(temp!=null){
-            System.out.print(p.data)
+            System.out.print(head.data);
+            head=head.next;
         }
     }
 
