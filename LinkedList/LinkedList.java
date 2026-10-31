@@ -20,6 +20,31 @@ public class LinkedList {
         tail.next=p;
         tail=p;
     }
+    public static void delFi(){
+
+        if(head==null){
+            return;
+        }
+        if(head==tail){
+            head=tail=null;
+
+        }
+        else {
+            head = head.next;
+        }
+    }
+
+    public static void addFi(int data){
+        Node p=new Node(data);
+        if(head==null) {
+            head = tail = p;
+        }
+        else{
+            p.next=head;
+            head=p;
+        }
+
+    }
 
     public static void display(){
         Node  temp=head;
@@ -35,6 +60,7 @@ public class LinkedList {
         add(13);
         add(15);
         add(55);
+        addFi(25);
         display();
 
     }
