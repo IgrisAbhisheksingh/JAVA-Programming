@@ -49,7 +49,7 @@ public class LinkedList {
     public static void display(){
         Node  temp=head;
         while(temp!=null){
-            System.out.print(temp.data +" ");
+            System.out.print(temp.data +" -> ");
             temp=temp.next;
         }
     }
@@ -62,6 +62,7 @@ public class LinkedList {
         add(55);
         addFi(25);
         display();
+        delFi();
 
     }
 }
