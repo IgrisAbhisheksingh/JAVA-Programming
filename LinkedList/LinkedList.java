@@ -63,7 +63,7 @@ public class LinkedList {
 
         else{
             tail.next=p;
-            p=
+            tail=tail;
 
         }
     }
