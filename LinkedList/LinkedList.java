@@ -62,13 +62,8 @@ public class LinkedList {
         }
 
         else{
-            Node temp=head;
-            while(temp.next==null){
-                if(temp.next==null){
-                    temp.next=p;
-                    p=tail;
-                }
-            }
+            tail.next=p;
+            p=
 
         }
     }
