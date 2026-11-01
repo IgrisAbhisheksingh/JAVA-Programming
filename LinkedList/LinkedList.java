@@ -54,6 +54,25 @@ public class LinkedList {
         }
     }
 
+    public static void addLast(int data)
+    {
+        Node p=new Node(data);
+        if(head==null) {
+            head=tail=p;
+        }
+
+        else{
+            Node temp=head;
+            while(temp.next==null){
+                if(temp.next==null){
+                    temp.next=p;
+                    p=tail;
+                }
+            }
+
+        }
+    }
+
 
     public static void main(String[] args){
         add(10);
